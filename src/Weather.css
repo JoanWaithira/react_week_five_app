@@ -31,8 +31,10 @@
 .weather img {
   height: 64px;
   width: 64px;
+  top: -34px;
   margin-right: 10px;
   display: inline-block;
+  position: inherit;
 }
 .weather .temperature {
   font-weight: bold;
