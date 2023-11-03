@@ -11,10 +11,12 @@ export default function App() {
         <footer>
           This project is created by{" "}
           <a href="https://www.linkedin.com/in/joan-waithira/">Joan Waithira</a>
-          {""} and is hosted on {""}
+          {""} and is {""}
           <a href="https://github.com/JoanWaithira/react_week_five_app">
-            Github
+            oen-sourced on Github
           </a>
+          {""} and is hosted on {""}
+          <a href="https://chimerical-concha-96d080.netlify.app/">Netlify</a>
         </footer>
       </div>
     </div>
