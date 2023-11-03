@@ -21,9 +21,15 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
     });
   }
+  // function search() {
+  //   const apiKey = "c819171fe0abdc14039af4ef5dda283b";
+  //   // let city = "New York";
+  //   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  //   axios.get(apiUrl).then(handleResponse);
+  // }
+
   function search() {
-    const apiKey = "c819171fe0abdc14039af4ef5dda283b";
-    // let city = "New York";
+    const apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
