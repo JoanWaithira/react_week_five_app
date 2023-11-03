@@ -22,9 +22,9 @@ export default function Weather(props) {
     });
   }
   function search() {
-    const apiKey = "3bc520cc14bbdedfd7e45158f2ef0439";
+    const apiKey = "c819171fe0abdc14039af4ef5dda283b";
     // let city = "New York";
-    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
 
