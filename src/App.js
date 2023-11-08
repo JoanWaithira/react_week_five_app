@@ -10,13 +10,23 @@ export default function App() {
 
         <footer>
           This project is created by{" "}
-          <a href="https://www.linkedin.com/in/joan-waithira/">Joan Waithira</a>
+          <a href="https://www.linkedin.com/in/joan-waithira/" target="_blank">
+            Joan Waithira
+          </a>
           {""} and is {""}
-          <a href="https://github.com/JoanWaithira/react_week_five_app">
+          <a
+            href="https://github.com/JoanWaithira/react_week_five_app"
+            target="_blank"
+          >
             oen-sourced on Github
           </a>
           {""} and is hosted on {""}
-          <a href="https://chimerical-concha-96d080.netlify.app/">Netlify</a>
+          <a
+            href="https://chimerical-concha-96d080.netlify.app/"
+            target="_blank"
+          >
+            Netlify
+          </a>
         </footer>
       </div>
     </div>
